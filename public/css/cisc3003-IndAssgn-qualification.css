@@ -1,0 +1,291 @@
+@charset "UTF-8";
+
+html, body{
+	padding: 0;
+	margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+	font-family: Arial, sans-serif;
+}
+
+.header {
+	background-color: #1E3A8A;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 80px;
+	width: 100%;
+	position: fixed;
+}
+
+.sub-header {
+	height: 80px;
+	background-color: #1E3A8A;
+}
+
+.header-nav .header-nav-item  {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.header-nav {
+	display: flex;
+    align-items: center;
+	margin-right: 20px;
+}
+
+.header-nav-item {
+	margin: 0px 10px;
+	font-size: 20px;
+}
+
+.header-nav .now{
+	color: #FFD700;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.logo {
+	height: 50px;
+	margin-left: 20px;
+}
+
+.main, .main2 {
+	width: 100%;
+	height: 600px;
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/background-image6.jpg'); 
+	background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+	transition: opacity 0.2s cubic-bezier(0, 0, 1, 1);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #FFFFFF;
+}
+
+.main2 {
+	padding-top: 80px;
+}
+
+.main, .main2 {
+	text-align: center;
+}
+
+.main h1, .main2 h1{
+	font-size: 80px;
+}
+
+.main h2, .main2 h2{
+	font-size: 30px;
+}
+
+.main a{
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 20px;
+}
+
+.main a:hover {
+	color: #FFD700;
+}
+
+h1, h2, p{
+	padding: 0;
+	margin: 0;
+}
+
+.aboutMe, .ValuesAndCareer, .Interest, .Blog, .Contact{
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+
+.first-block{
+	padding-top: 80px;
+}
+
+.second-block{
+	padding-bottom: 20px;
+	background-color: #1E3A8A;
+	color: #FFFFFF;
+}
+
+.Interest{
+	padding-bottom: 0px;
+}
+
+.aboutMe .block, .ValuesAndCareer .block, .Interest .block, .Contact .block{
+	width: 80%;
+	display: flex;
+}
+
+.Blog-item{
+	display: flex;
+}
+
+.Blog .block{
+	width: 80%;
+}
+
+.aboutMe-text, .Blog-item-text{
+	/*border: 2px red solid;*/
+	width: 70%;
+	margin: 10px 40px;
+}
+
+.divider {
+    width: 100%;
+    height: 2px;
+    background-color: #1E3A8A;
+}
+
+.aboutMe-img, .Blog-item-img{
+	/*border: 2px red solid;*/
+	width: 30%;
+	display: flex;
+	justify-content: right;
+}
+
+.aboutMe-img img, .Blog-item-img img{
+	max-width: 300px;
+	height: auto;
+	object-fit: contain;
+	margin: 20px;
+}
+
+.title{
+	color: #1E3A8A;
+	font-size: 40px;
+}
+
+p{
+	font-size: 20px;
+	margin: 20px 0px;
+	text-align: left;
+}
+
+.ValuesAndCareer .block .Values{
+	/*border: 2px red solid;*/
+	width: 50%;
+	margin: 10px 40px;
+}
+
+.ValuesAndCareer .block .Career{
+	/*border: 2px red solid;*/
+	width: 50%;
+	margin: 10px 40px;
+}
+
+.ValuesAndCareer{
+	margin: 40px 0;
+	padding-top: 80px;
+}
+
+@media (max-width: 1088px) {
+	.menu-toggle {
+        display: block;
+    }
+	.menu {
+        display: none;
+        flex-direction: column;
+        background-color: #1E3A8A;
+        position: absolute;
+        top: 80px;
+        right: 0px;
+        padding: 10px;
+		width: 100%;
+		justify-content: center;
+		opacity: 0.9;
+    }
+
+    .menu.active {
+        display: flex; /* 显示下拉菜单 */
+    }
+
+	.header-nav-item{
+		/* border: 2px blue solid; */
+		padding: 20px;
+		text-align: center;
+	}
+
+	.ValuesAndCareer .block{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.ValuesAndCareer .block .Values, .ValuesAndCareer .block .Career{
+		width: 100%;
+	}
+
+	.Planning-text{
+		margin: 0;
+	}
+
+	.aboutMe .block{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.aboutMe-text{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.aboutMe p{
+		text-align: center;
+	}
+
+	.aboutMe-img{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: 0;
+	}
+
+	.aboutMe img{
+		margin: 0;
+	}
+}
+
+.Interest .block .text, .Contact .block .text{
+	margin: 10px 40px;
+}
+
+footer{
+	text-align: center;
+	background-color: #1E3A8A;
+	color: #FFFFFF;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.CV{
+	padding: 80px;
+	display: flex;
+	justify-content: center;
+	border-top: 2px solid #1E3A8A;
+}
+
+.CV img{
+	width: 50%;
+}
