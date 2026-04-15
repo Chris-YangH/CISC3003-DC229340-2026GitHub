@@ -1,0 +1,345 @@
+@charset "UTF-8";
+
+html, body{
+	padding: 0;
+	margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+	font-family: Arial, sans-serif;
+}
+
+.header {
+	background-color: #1E3A8A;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 80px;
+	width: 100%;
+	position: fixed;
+}
+
+.sub-header {
+	height: 80px;
+	background-color: #1E3A8A;
+}
+
+.header-nav .header-nav-item  {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.header-nav {
+	display: flex;
+    align-items: center;
+	margin-right: 20px;
+}
+
+.header-nav-item {
+	margin: 0px 10px;
+	font-size: 20px;
+}
+
+.header-nav .now{
+	color: #FFD700;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.logo {
+	height: 50px;
+	margin-left: 20px;
+}
+
+.main {
+	width: 100%;
+	height: 600px;
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/background-image5.jpg'); 
+	background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+	transition: opacity 0.2s cubic-bezier(0, 0, 1, 1);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #FFFFFF;
+}
+
+.main {
+	text-align: center;
+}
+
+.main h1{
+	font-size: 80px;
+}
+
+.main h2{
+	font-size: 30px;
+}
+
+.main p{
+	font-size: 20px;
+	width: 80%;
+	text-align: justify;
+}
+
+.main a{
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 20px;
+}
+
+.main a:hover {
+	color: #FFD700;
+}
+
+h1, h2, p{
+	padding: 0;
+	margin: 0 auto;
+}
+
+.Planning, .ValuesAndCareer, .Interest, .Blog, .Contact{
+	display: flex;
+	justify-content: center;
+	padding-top: 80px;
+	padding-bottom: 60px;
+}
+
+.Interest{
+	padding-bottom: 0px;
+}
+
+.Planning .block, .ValuesAndCareer .block, .Interest .block, .Contact .block{
+	width: 80%;
+	display: flex;
+}
+
+.Blog-item{
+	display: flex;
+}
+
+.Blog .block{
+	width: 80%;
+}
+
+.Planning-text, .Blog-item-text{
+	/*border: 2px red solid;*/
+	/* width: 70%; */
+	margin: 10px 40px;
+}
+
+.divider {
+    width: 100%;
+    height: 2px;
+    background-color: #1E3A8A;
+}
+
+.Blog-item-img{
+	/*border: 2px red solid;*/
+	width: 30%;
+	display: flex;
+	justify-content: right;
+}
+
+.Blog-item-img img{
+	max-width: 300px;
+	height: auto;
+	object-fit: contain;
+	margin: 20px;
+}
+
+.title{
+	color: #1E3A8A;
+	font-size: 40px;
+}
+
+.block p{
+	font-size: 20px;
+	margin: 20px 0px;
+	text-align: justify;
+}
+
+.ValuesAndCareer .block .Values{
+	/*border: 2px red solid;*/
+	width: 50%;
+	margin: 10px 40px;
+}
+
+.ValuesAndCareer .block .Career{
+	/*border: 2px red solid;*/
+	width: 50%;
+	margin: 10px 40px 30px;
+}
+
+@media (max-width: 1088px) {
+	.menu-toggle {
+        display: block;
+    }
+	.menu {
+        display: none;
+        flex-direction: column;
+        background-color: #1E3A8A;
+        position: absolute;
+        top: 80px;
+        right: 0px;
+        padding: 10px;
+		width: 100%;
+		justify-content: center;
+		opacity: 0.9;
+    }
+
+    .menu.active {
+        display: flex; 
+    }
+
+	.header-nav-item{
+		/* border: 2px blue solid; */
+		padding: 20px;
+		text-align: center;
+	}
+
+	.ValuesAndCareer .block{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.ValuesAndCareer .block .Values, .ValuesAndCareer .block .Career{
+		width: 100%;
+	}
+
+	.Planning-text{
+		margin: 0;
+	}
+}
+
+.Interest .block .text, .Contact .block .text{
+	margin: 10px 40px;
+}
+
+footer{
+	text-align: center;
+	background-color: #1E3A8A;
+	color: #FFFFFF;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.ValuesAndCareer{
+	background-color: #1E3A8A;
+	/* background-color: #002C55; */
+	color: #FFFFFF;
+	padding-top: 80px;
+	padding-bottom: 60px;
+}
+
+.ValuesAndCareer .title{
+	color: #FFFFFF;
+}
+
+.Contact{
+	background-color: #1E3A8A;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.Contact .block, .Contact .title{
+	color: #FFFFFF;
+}
+
+.contact-table {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin: 20px 0;
+}
+
+.contact-table th,
+.contact-table td {
+    padding: 10px;
+    text-align: left;
+	font-size: 20px;
+}
+
+.contact-table th {
+    background-color: #1E3A8A;
+    font-weight: bold;
+    width: 25%;
+}
+
+.contact-table td {
+    background-color: #1E3A8A;
+}
+
+.ValuesAndCareer .block p{
+	text-align: left;
+}
+
+/* Mobile Responsive Enhancements */
+@media (max-width: 768px) {
+    .main {
+        height: 400px;
+    }
+    .main h1 {
+        font-size: 48px;
+    }
+    .main h2 {
+        font-size: 24px;
+    }
+    .main a {
+        font-size: 18px;
+    }
+    .title {
+        font-size: 32px;
+    }
+    p, .block p {
+        font-size: 18px;
+    }
+    .Planning .block, .ValuesAndCareer .block {
+        width: 95%;
+    }
+    .Planning-text {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .ValuesAndCareer .block .Values, .ValuesAndCareer .block .Career {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .main {
+        height: 300px;
+    }
+    .main h1 {
+        font-size: 36px;
+    }
+    .main h2 {
+        font-size: 20px;
+    }
+    .main a {
+        font-size: 16px;
+    }
+    .title {
+        font-size: 28px;
+    }
+    p, .block p {
+        font-size: 16px;
+    }
+    .logo {
+        height: 40px;
+    }
+    .header-nav-item {
+        font-size: 18px;
+    }
+}
