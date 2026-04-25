@@ -1,0 +1,389 @@
+[
+  {
+    "title": "Software Engineer, New Grad",
+    "company": "Google",
+    "role_type": "SDE",
+    "location": "Mountain View / NYC / Seattle",
+    "level": "L3",
+    "highlight": "Rotational team placement; strong compensation and 20% project culture.",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/?jlo=en_US&q=software%20engineer"
+  },
+  {
+    "title": "Software Engineer, University Grad",
+    "company": "Meta",
+    "role_type": "SDE",
+    "location": "Menlo Park / NYC",
+    "level": "E3",
+    "highlight": "Bootcamp-style onboarding with product or infrastructure track placement.",
+    "url": "https://www.metacareers.com/jobs"
+  },
+  {
+    "title": "Software Development Engineer I (New Grad)",
+    "company": "Amazon",
+    "role_type": "SDE",
+    "location": "Seattle / Bay Area",
+    "level": "L4",
+    "highlight": "Leadership-Principles interviews; exposure to very large codebases from day one.",
+    "url": "https://www.amazon.jobs/en/teams/software-development"
+  },
+  {
+    "title": "Software Engineer",
+    "company": "Apple",
+    "role_type": "SDE",
+    "location": "Cupertino",
+    "level": "ICT2",
+    "highlight": "Secrecy-heavy culture with deep hardware-software integration and polished craft.",
+    "url": "https://jobs.apple.com/en-us/search?team=SFTWR"
+  },
+  {
+    "title": "Software Engineer, New Grad",
+    "company": "Microsoft",
+    "role_type": "SDE",
+    "location": "Redmond / Vancouver",
+    "level": "L59",
+    "highlight": "Azure, Office and Windows divisions offer a broad menu of tech stacks.",
+    "url": "https://careers.microsoft.com/v2/global/en/students-and-graduates.html"
+  },
+  {
+    "title": "Software Engineer, New Grad",
+    "company": "Stripe",
+    "role_type": "SDE",
+    "location": "Remote US / SF / NYC",
+    "level": "IC2",
+    "highlight": "Financial-grade payments infrastructure with a celebrated engineering docs culture.",
+    "url": "https://stripe.com/jobs/search?teams=Engineering"
+  },
+  {
+    "title": "Software Engineer, New Grad",
+    "company": "Airbnb",
+    "role_type": "SDE",
+    "location": "San Francisco / Seattle",
+    "level": "IC3",
+    "highlight": "Product-driven engineering in a design-heavy culture.",
+    "url": "https://careers.airbnb.com/positions/"
+  },
+  {
+    "title": "Software Engineer",
+    "company": "ByteDance / TikTok",
+    "role_type": "SDE",
+    "location": "Singapore / Hong Kong / Seattle",
+    "level": "New Grad",
+    "highlight": "Fast iteration and product globalization across TikTok and ByteDance apps.",
+    "url": "https://jobs.bytedance.com/en/"
+  },
+  {
+    "title": "Software Engineer",
+    "company": "Grab",
+    "role_type": "SDE",
+    "location": "Singapore",
+    "level": "SE I",
+    "highlight": "Southeast-Asia super-app spanning mobility, delivery and fintech.",
+    "url": "https://grab.careers/jobs/"
+  },
+  {
+    "title": "Software Engineer",
+    "company": "Shopee",
+    "role_type": "SDE",
+    "location": "Singapore",
+    "level": "New Grad",
+    "highlight": "E-commerce platform at regional scale; part of Sea Group.",
+    "url": "https://careers.shopee.sg/job-openings"
+  },
+  {
+    "title": "Machine Learning Engineer, New Grad",
+    "company": "Google",
+    "role_type": "MLE",
+    "location": "Mountain View / London",
+    "level": "L3",
+    "highlight": "Work on Core ML, Search and Ads ranking pipelines.",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/?q=machine%20learning"
+  },
+  {
+    "title": "Research Engineer",
+    "company": "Google DeepMind",
+    "role_type": "MLE",
+    "location": "London / Mountain View",
+    "level": "IC",
+    "highlight": "Frontier research combined with production engineering at AGI scope.",
+    "url": "https://deepmind.google/about/careers/"
+  },
+  {
+    "title": "Research Engineer / AI Research Scientist",
+    "company": "Meta AI (FAIR)",
+    "role_type": "MLE",
+    "location": "Menlo Park / NYC / Paris",
+    "level": "IC",
+    "highlight": "Open research culture; home of PyTorch and long-horizon ML research.",
+    "url": "https://ai.meta.com/careers/"
+  },
+  {
+    "title": "Software Engineer, Machine Learning",
+    "company": "OpenAI",
+    "role_type": "MLE",
+    "location": "San Francisco",
+    "level": "IC",
+    "highlight": "Model training, tooling and product-facing ML for GPT-class systems.",
+    "url": "https://openai.com/careers/"
+  },
+  {
+    "title": "Member of Technical Staff, ML",
+    "company": "Anthropic",
+    "role_type": "MLE",
+    "location": "San Francisco / London",
+    "level": "IC",
+    "highlight": "Safety-focused frontier AI lab building the Claude model family.",
+    "url": "https://www.anthropic.com/careers"
+  },
+  {
+    "title": "Deep Learning Engineer",
+    "company": "NVIDIA",
+    "role_type": "MLE",
+    "location": "Santa Clara",
+    "level": "IC2",
+    "highlight": "CUDA-level performance engineering alongside deep-learning frameworks.",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite"
+  },
+  {
+    "title": "Machine Learning Engineer",
+    "company": "Apple",
+    "role_type": "MLE",
+    "location": "Cupertino / Seattle",
+    "level": "ICT3",
+    "highlight": "On-device ML with a privacy-first design ethos.",
+    "url": "https://jobs.apple.com/en-us/search?search=machine+learning"
+  },
+  {
+    "title": "Autopilot AI Engineer",
+    "company": "Tesla",
+    "role_type": "MLE",
+    "location": "Palo Alto",
+    "level": "IC",
+    "highlight": "Self-driving perception and planning at very high intensity.",
+    "url": "https://www.tesla.com/careers/search/?department=1"
+  },
+  {
+    "title": "Machine Learning Engineer",
+    "company": "Shopee / Sea Labs",
+    "role_type": "MLE",
+    "location": "Singapore",
+    "level": "SE I",
+    "highlight": "Recommendation and search-relevance at Sea-Group scale across Southeast Asia.",
+    "url": "https://careers.shopee.sg/"
+  },
+  {
+    "title": "Machine Learning Engineer",
+    "company": "ByteDance AI Lab",
+    "role_type": "MLE",
+    "location": "Singapore / Shanghai",
+    "level": "IC",
+    "highlight": "Douyin and TikTok ranking plus generative content systems.",
+    "url": "https://jobs.bytedance.com/en/"
+  },
+  {
+    "title": "Security Engineer",
+    "company": "Google",
+    "role_type": "Security",
+    "location": "Mountain View / Zürich",
+    "level": "L3",
+    "highlight": "Product Security and Detection & Response teams across Google services.",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/?q=security%20engineer"
+  },
+  {
+    "title": "Security Engineer",
+    "company": "Meta",
+    "role_type": "Security",
+    "location": "Menlo Park / London",
+    "level": "E4",
+    "highlight": "AppSec, Red Team and Detection tracks across Meta's product surface.",
+    "url": "https://www.metacareers.com/jobs?q=security"
+  },
+  {
+    "title": "Security Software Engineer",
+    "company": "CrowdStrike",
+    "role_type": "Security",
+    "location": "Remote US",
+    "level": "IC2",
+    "highlight": "Endpoint detection and response platform; cloud-native architecture.",
+    "url": "https://www.crowdstrike.com/en-us/careers/"
+  },
+  {
+    "title": "Security Engineer",
+    "company": "Palo Alto Networks",
+    "role_type": "Security",
+    "location": "Santa Clara",
+    "level": "IC",
+    "highlight": "Network and cloud-security stack across enterprises worldwide.",
+    "url": "https://www.paloaltonetworks.com/company/careers"
+  },
+  {
+    "title": "Security Engineer",
+    "company": "Cloudflare",
+    "role_type": "Security",
+    "location": "Austin / London / Singapore",
+    "level": "IC",
+    "highlight": "Edge-layer security at the scale of a large fraction of internet traffic.",
+    "url": "https://www.cloudflare.com/careers/jobs/"
+  },
+  {
+    "title": "Security Engineer, AppSec",
+    "company": "Amazon Web Services",
+    "role_type": "Security",
+    "location": "Seattle",
+    "level": "L4",
+    "highlight": "Application security across the AWS service catalogue.",
+    "url": "https://www.amazon.jobs/en/job_categories/security"
+  },
+  {
+    "title": "Security Engineer, MSRC",
+    "company": "Microsoft",
+    "role_type": "Security",
+    "location": "Redmond",
+    "level": "L60",
+    "highlight": "Microsoft Security Response Center: incident response and vulnerability research.",
+    "url": "https://careers.microsoft.com/v2/global/en/security-research.html"
+  },
+  {
+    "title": "Data Scientist, Product",
+    "company": "Google",
+    "role_type": "Data",
+    "location": "Mountain View",
+    "level": "L3",
+    "highlight": "Product metric design and A/B experimentation across Google surfaces.",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/?q=data%20scientist"
+  },
+  {
+    "title": "Data Scientist, Analytics",
+    "company": "Meta",
+    "role_type": "Data",
+    "location": "Menlo Park / London",
+    "level": "IC4",
+    "highlight": "Product analytics with SQL-heavy workflows and causal-inference depth.",
+    "url": "https://www.metacareers.com/jobs?q=data%20scientist"
+  },
+  {
+    "title": "Data Engineer",
+    "company": "Netflix",
+    "role_type": "Data",
+    "location": "Los Gatos",
+    "level": "IC",
+    "highlight": "Streaming data infrastructure and experimentation platforms.",
+    "url": "https://jobs.netflix.com/search?q=data"
+  },
+  {
+    "title": "Data Scientist",
+    "company": "Airbnb",
+    "role_type": "Data",
+    "location": "San Francisco",
+    "level": "IC3",
+    "highlight": "Marketplace metrics and causal-inference projects across global host/guest data.",
+    "url": "https://careers.airbnb.com/positions/"
+  },
+  {
+    "title": "Data Engineer",
+    "company": "Spotify",
+    "role_type": "Data",
+    "location": "NYC / Stockholm",
+    "level": "IC",
+    "highlight": "Music recommendation pipelines and business-intelligence systems.",
+    "url": "https://www.lifeatspotify.com/jobs"
+  },
+  {
+    "title": "Data Scientist",
+    "company": "Shopee",
+    "role_type": "Data",
+    "location": "Singapore",
+    "level": "IC",
+    "highlight": "E-commerce ranking, dynamic pricing and growth experimentation.",
+    "url": "https://careers.shopee.sg/"
+  },
+  {
+    "title": "Research Engineer",
+    "company": "Google Research",
+    "role_type": "Research",
+    "location": "Mountain View / NYC",
+    "level": "L4",
+    "highlight": "Applied research plus production-grade engineering across Google services.",
+    "url": "https://research.google/careers/"
+  },
+  {
+    "title": "Research Software Engineer",
+    "company": "Microsoft Research",
+    "role_type": "Research",
+    "location": "Redmond / Cambridge UK / Bangalore",
+    "level": "L62",
+    "highlight": "Broad CS research spanning systems, quantum computing and applied ML.",
+    "url": "https://www.microsoft.com/en-us/research/careers/"
+  },
+  {
+    "title": "Research Scientist",
+    "company": "Meta FAIR",
+    "role_type": "Research",
+    "location": "Menlo Park / NYC / Paris",
+    "level": "IC",
+    "highlight": "Open research with high publication cadence and strong collaborations.",
+    "url": "https://ai.meta.com/careers/"
+  },
+  {
+    "title": "Research Scientist",
+    "company": "Google DeepMind",
+    "role_type": "Research",
+    "location": "London",
+    "level": "IC",
+    "highlight": "Frontier AI research spanning reinforcement learning, biology and language.",
+    "url": "https://deepmind.google/about/careers/"
+  },
+  {
+    "title": "Research Staff Member",
+    "company": "IBM Research",
+    "role_type": "Research",
+    "location": "Yorktown Heights",
+    "level": "IC",
+    "highlight": "Long-horizon research in systems, quantum computing and enterprise AI.",
+    "url": "https://research.ibm.com/careers"
+  },
+  {
+    "title": "Research Scientist",
+    "company": "NVIDIA Research",
+    "role_type": "Research",
+    "location": "Santa Clara",
+    "level": "IC",
+    "highlight": "Graphics, deep learning and high-performance systems research.",
+    "url": "https://research.nvidia.com/careers"
+  },
+  {
+    "title": "Associate Product Manager (APM)",
+    "company": "Google",
+    "role_type": "Product",
+    "location": "Mountain View",
+    "level": "L3",
+    "highlight": "Flagship two-year rotational programme for early-career product managers.",
+    "url": "https://buildyourfuture.withgoogle.com/programs/apm"
+  },
+  {
+    "title": "Rotational Product Manager (RPM)",
+    "company": "Meta",
+    "role_type": "Product",
+    "location": "Menlo Park",
+    "level": "IC4",
+    "highlight": "Rotational new-grad PM programme across Meta's product surface.",
+    "url": "https://www.metacareers.com/careerprograms/pathways/rpm"
+  },
+  {
+    "title": "Product Manager, University Grad",
+    "company": "Microsoft",
+    "role_type": "Product",
+    "location": "Redmond",
+    "level": "L60",
+    "highlight": "Cloud, Office and Windows products with frequent cross-org rotations.",
+    "url": "https://careers.microsoft.com/v2/global/en/program/university-product-manager.html"
+  },
+  {
+    "title": "Associate Product Manager",
+    "company": "Atlassian",
+    "role_type": "Product",
+    "location": "Sydney / San Francisco",
+    "level": "P30",
+    "highlight": "Developer-tools PM track across Jira, Confluence and Trello.",
+    "url": "https://www.atlassian.com/company/careers/all-jobs"
+  }
+]
