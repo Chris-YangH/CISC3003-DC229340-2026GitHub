@@ -1,0 +1,114 @@
+:root {
+    color-scheme: light;
+    --ink: #1f2937;
+    --muted: #5b6472;
+    --line: #d7dde7;
+    --brand: #0f766e;
+    --accent: #b45309;
+    --surface: #ffffff;
+    --backdrop: #eef3f7;
+}
+
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--ink);
+    background: linear-gradient(135deg, #eef3f7 0%, #f8fafc 52%, #e7f0ed 100%);
+    min-height: 100vh;
+}
+
+.shell {
+    width: min(960px, calc(100% - 32px));
+    margin: 0 auto;
+    padding: 40px 0 80px;
+}
+
+.panel {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 28px;
+    box-shadow: 0 20px 50px rgba(31, 41, 55, 0.12);
+}
+
+.eyebrow {
+    color: var(--brand);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+label, legend {
+    display: block;
+    margin-top: 16px;
+    font-weight: 700;
+}
+
+input, select, textarea {
+    width: 100%;
+    margin-top: 6px;
+    padding: 12px;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    font: inherit;
+}
+
+fieldset {
+    margin: 18px 0;
+    padding: 14px;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+}
+
+.choice {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-right: 18px;
+    font-weight: 400;
+}
+
+.choice input { width: auto; }
+
+button, .button {
+    display: inline-block;
+    border: 0;
+    border-radius: 6px;
+    background: var(--brand);
+    color: white;
+    padding: 12px 18px;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button.secondary {
+    background: #334155;
+}
+
+.top-actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 16px 0;
+}
+
+.alert {
+    border-radius: 6px;
+    padding: 12px 14px;
+    margin: 16px 0;
+}
+
+.error { background: #fff1f2; color: #9f1239; }
+.success { background: #ecfdf5; color: #047857; }
+
+footer {
+    position: fixed;
+    inset: auto 0 0;
+    padding: 12px;
+    text-align: center;
+    background: #111827;
+    color: white;
+    font-size: 14px;
+}
